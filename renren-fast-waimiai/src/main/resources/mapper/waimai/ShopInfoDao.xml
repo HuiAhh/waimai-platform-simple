@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.finaltest.waimai.dao.ShopInfoDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+<!--    <resultMap type="com.finaltest.waimai.entity.ShopInfoEntity" id="shopInfoMap">-->
+<!--        <result property="id" column="id"/>-->
+<!--        <result property="shopownerId" column="shopowner_id"/>-->
+<!--        <result property="shopname" column="shopname"/>-->
+<!--        <result property="contactMan" column="contact_man"/>-->
+<!--        <result property="contactMobile" column="contact_mobile"/>-->
+<!--        <result property="cateid" column="cateid"/>-->
+<!--        <result property="beginTime" column="begin_time"/>-->
+<!--        <result property="endTime" column="end_time"/>-->
+<!--        <result property="logoImg" column="logo_img"/>-->
+<!--        <result property="address" column="address"/>-->
+<!--        <result property="mobile" column="mobile"/>-->
+<!--        <result property="notice" column="notice"/>-->
+<!--        <result property="score" column="score"/>-->
+<!--        <result property="sendTime" column="send_time"/>-->
+<!--        <result property="boxCost" column="box_cost"/>-->
+<!--        <result property="sendCost" column="send_cost"/>-->
+<!--        <result property="floorSendCost" column="floor_send_cost"/>-->
+<!--        <result property="status" column="status"/>-->
+<!--    </resultMap>-->
+
+
+</mapper>

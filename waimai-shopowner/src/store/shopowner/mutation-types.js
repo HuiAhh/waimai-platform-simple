@@ -1,0 +1,9 @@
+export const SET_MODULE = "SET_MODULE";
+
+export const SET_NAME = "SET_NAME";
+
+// order
+export const APPEND_ORDER_LIST='APPEND_ORDER_LIST'
+// export const FILTER_ORDER='FILTER_ORDER'
+export const SET_ORDER_LIST='SET_ORDER_LIST'
+export const SET_UPDATE_ORDER_FLAG='SET_UPDATE_ORDER_FLAG'

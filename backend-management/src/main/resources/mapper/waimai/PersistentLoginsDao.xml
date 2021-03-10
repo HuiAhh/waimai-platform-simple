@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.waimai.dao.PersistentLoginsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="io.renren.modules.waimai.entity.PersistentLoginsEntity" id="persistentLoginsMap">
+        <result property="username" column="username"/>
+        <result property="series" column="series"/>
+        <result property="token" column="token"/>
+        <result property="lastUsed" column="last_used"/>
+    </resultMap>
+
+
+</mapper>
